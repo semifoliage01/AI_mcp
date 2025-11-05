@@ -318,3 +318,12 @@ node build/client.js
     "start": "node build/client.js"
 }
 npm run start
+
+
+echo "# AI_mcp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/semifoliage01/AI_mcp.git
+git push -u origin main
